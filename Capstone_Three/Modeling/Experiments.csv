@@ -1,0 +1,12 @@
+Architecture,Model_Number,Conv1,kernel1,stride1,padding,Maxpool,Dense1,Conv2,kernel2,stride2,Dense2,Conv3,kernel3,stride3,Dense3
+arch_1,model_1,16,3,1,same,2,120,,,,,,,,
+arch_1,model_2,16,3,1,valid,2,120,,,,,,,,
+arch_1,model_3,16,3,2,valid,2,120,,,,,,,,
+arch_1,model_4,16,5,1,valid,2,120,,,,,,,,
+arch_1,model_5,32,5,1,valid,2,120,,,,,,,,
+arch_1,model_6,64,5,1,valid,2,240,,,,,,,,
+arch_2,model_1,6,5,1,valid,2,120,16,5,1,84,,,,
+arch_2,model_2,16,3,1,valid,2,240,32,3,1,168,,,,
+arch_3,model_1,6,5,1,valid,2,120,16,5,1,84,32,5,1,58
+arch_3,model_2,16,5,2,same,2,240,32,5,2,168,64,5,2,116
+arch_3,model_3,6,9,1,same,2,576,16,9,1,288,16,5,1,144
